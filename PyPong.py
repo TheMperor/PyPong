@@ -214,7 +214,7 @@ class PyPong:
             # Render the text. "True" means anti-aliased text. 
             # Black is the color. This creates an image of the 
             # letters, but does not put it on the screen
-            text = font.render("PyPong",True,black)
+            text = font.render("PyPong by YourName",True,black)
             score1text=font.render(player1.score(),True,red)
             score2text=font.render(player2.score(), True, blue)
         
@@ -227,7 +227,7 @@ class PyPong:
             # This MUST happen after all the other drawing commands.
             pygame.display.flip()
         
-        print 'Goodbye'
+        print 'Initiating real world'
         # Be IDLE friendly
         pygame.quit ()
 
